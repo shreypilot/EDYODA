@@ -1,22 +1,24 @@
 import React from "react";
 import './ModuleSidebar.css';
-import { AiFillPlayCircle } from 'react-icons/ai';
-
+import { AiOutlineQuestionCircle } from 'react-icons/ai';
+import {TbCodeCircle2} from 'react-icons/tb';
+import {GrCirclePlay} from 'react-icons/gr'
 function ModuleSidebar() {
   return (
     <div className="module-sidebar">
       <nav>
         <ul>
           <li>
-            <AiFillPlayCircle size={23}/>
-            Python Loops
+            <GrCirclePlay size={16}/>
+            <span className="nav-text"> Python Loops</span>
           </li>
           <li>
-            <AiOutlineQuestionCircle/>
-            <a href="#">Quiz 1:Data Types</a>
+            <AiOutlineQuestionCircle size={16}/>
+            <span className="nav-text">Quiz 1:Data Types</span>
           </li>
           <li>
-            <a href="#">Assignment 1:Operators | Loops</a>
+            <TbCodeCircle2 size={16}/>
+            <span className="nav-text">Assignment 1:Operators | Loops</span>
           </li>
         </ul>
       </nav>
