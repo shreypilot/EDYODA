@@ -1,0 +1,54 @@
+.sidebar {
+  width: 100px;
+  height: 100vh;
+  background-color: rgb(3, 24, 31);
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  align-items: center;
+}
+
+nav ul {
+  display: flex; /* use flexbox layout */
+  flex-direction: column; /* stack items vertically */
+  align-items: center; /* center items horizontally */
+  justify-content: center; /* center items vertically */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+  font-size: 10px;
+  font-weight: 900;
+  margin-right: 2px;
+  padding: 10px;
+  display: block; 
+  position: relative; 
+}
+nav li .nav-text {
+  display: block;
+}
+
+nav li:hover {
+  background-color: white;
+  color: black;
+  width: 100px;
+}
+.selected {
+  background-color: white;
+  color: black;
+  width: 100px;
+
+}
+
+
+
+
+/* .sidebar .nav-item:hover {
+  background-color: white;
+  box-sizing: border-box;
+  color: black;
+  width: 100%;
+} */
