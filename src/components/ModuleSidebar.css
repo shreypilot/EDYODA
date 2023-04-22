@@ -1,0 +1,32 @@
+.module-sidebar {
+  background-color: #e8e5d7;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 150px;
+  height: 100%;
+}
+
+.module-sidebar nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.module-sidebar nav li {
+  margin-bottom: 10px;
+}
+
+.module-sidebar nav li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.module-sidebar nav li a:hover {
+  color: #333;
+  background-color: #ccc;
+}
+
