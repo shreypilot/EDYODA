@@ -8,11 +8,17 @@
   ],
   "main": "src/index.js",
   "dependencies": {
+<<<<<<< HEAD
     "@react-icons/all-files": "4.1.0",
     "loader-utils": "3.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "4.8.0",
+=======
+    "loader-utils": "3.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+>>>>>>> 4f7334873b99c07b1f6e6ea2cf6c196f979364e9
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
