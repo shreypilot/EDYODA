@@ -38,13 +38,13 @@ nav li .nav-text {
   display: block;
 }
 
-nav li:hover {
-  background-color:#EDE5D7;
+.sidebar nav li:hover {
+  background-color:#F0F0F0;
   color: black;
   width: 80px;
 }
 .selected {
-  background-color: #EDE3D7;
+  background-color: #F0F0F0;
   color: black;
   width: 80px;
 

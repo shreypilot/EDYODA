@@ -3,10 +3,12 @@ import './Sidebar.css';
 import { FaHome, FaChalkboardTeacher } from 'react-icons/fa';
 import { GoFileSubmodule } from 'react-icons/go';
 import ModuleSidebar from './ModuleSidebar';
+import { Link } from 'react-router-dom';
+
 function Sidebar() {
   const [selected, setSelected] = useState('home');
-   const [showModules, setShowModules] = useState(false);
-   
+  const [showModules, setShowModules] = useState(false);
+     
   const handleItemClick = (item) => {
     setSelected(item);
     if (item === "module") {
@@ -23,24 +25,31 @@ function Sidebar() {
         <ul>
           <li  className={selected === 'home' ? 'selected' : ''}
             onClick={() => handleItemClick('home')}>
+            <Link to="/">  
             <FaHome size={25} />
             <span className="nav-text">HOME</span>
+            </Link>
           </li>
           <li  className={selected === 'module' ? 'selected' : ''}
             onClick={() => handleItemClick('module')}>
-            <GoFileSubmodule size={25} color="black" />
-            <span className="nav-text">MODULES</span>
+              <Link to="pythonloops">
+                <GoFileSubmodule size={25} color="black" />
+                <span className="nav-text">MODULES</span>
+              </Link>
           </li>
           <li  className={selected === 'instructor' ? 'selected' : ''}
             onClick={() => handleItemClick('instructor')}>
+            <Link to="/">
             <FaChalkboardTeacher size={25} />
             <span className="nav-text">INSTRUCTORS</span>
+            </Link>
           </li>
         </ul>
       </nav>
     </div>
     <div> 
-       {showModules && <ModuleSidebar />}
+       {showModules && 
+       <ModuleSidebar />}
      </div>
     
    </div>
