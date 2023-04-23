@@ -9,7 +9,7 @@ function Navbar() {
     <>
     <nav className="navbar">
       <div className="logo">
-        <Link to="/">
+        <Link to="/" className="nav-logo">
          EDYODA
        </Link>
       </div>

@@ -3,37 +3,57 @@ import "./Home.css";
 
 function Home() {
   return (
+    <>
     <div className="homepage">
       <div className="certifications">
         <h2>Upcoming Certifications</h2>
-        <div className="certification-details">
-          <div className="border-box">
-            <h3>Data Analysis</h3>
-            <p>Exam structure: Multiple choice questions</p>
+        <div className="details">
+          <div className="certification-details">
+            <h4>CERTIFICATION | ATTEMPT 1</h4>
+            <h3>DATA ANALYSIS<br/>CERTIFICATION</h3>
+            <h4>COMPLETED  | 21 MAR 2022</h4>
+
+          </div>
+          <div className="exam-structure">
+            <p>Exam Structure</p>
+             <ul>
+              <li>Round 1</li>
+              <ul>
+                <li>MCQs</li>
+                <li>Coding Section</li>
+              </ul>
+              <li>Round 2</li>
+              <ul>
+                <li>Project Section</li>
+              </ul>
+            </ul>
+          </div>
+          <div className="exam-details">
+            VIEW EXAM DETAILS
           </div>
         </div>
       </div>
       <div className="learning">
-        <h2>Continue Learning</h2>
+        <h1>Continue Learning</h1>
         <div className="learning-details">
+          <div className="test-instructors">
+             <h2>DATA WRANGLING & <br/> VISUALIZTIONI</h2>
+             <h4> Test Instructor</h4>
+               <ul>
+                 <li>Live session</li>
+                 <li>Assignment</li>
+                 <li> MCQ Quiz</li>
+               </ul>
+               </div>
+          
           <div className="todays-plan box">
-            <h3>Today's Plans</h3>
-            <p>10:00 AM - 11:00 AM: React Workshop</p>
-            <p>1:00 PM - 2:00 PM: JavaScript Study Group</p>
-          </div>
-          <div className="instructor-plan box">
-            <h3>Instructor Plan</h3>
-            <p>Next Week: Redux Introduction</p>
-            <p>Next Month: Full-Stack Development Bootcamp</p>
-          </div>
-          <div className="progress-overview box">
-            <h3>Progress Overview</h3>
-            <p>React Fundamentals: 90%</p>
-            <p>JavaScript Basics: 100%</p>
+            <h3>DATA TRANFORMATION using Pandas-3</h3>
           </div>
         </div>
       </div>
-    </div>
+      </div>
+   
+    </>
   );
 }
 

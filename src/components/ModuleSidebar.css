@@ -44,6 +44,24 @@
   font-weight: bold;
 }
 
+.module-sidebar .nav-link {
+  align-items: center;
+  text-decoration: none;
+  box-sizing: border-box; 
+  color: inherit;
+  display:inline-block ; 
+ display: flex;
+}
+
+.module-sidebar .nav-link:hover {
+  background-color: #BEBEBE;
+  font-weight: bold;
+}
+
+
+
+
+
 
 
 

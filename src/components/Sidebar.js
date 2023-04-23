@@ -25,21 +25,21 @@ function Sidebar() {
         <ul>
           <li  className={selected === 'home' ? 'selected' : ''}
             onClick={() => handleItemClick('home')}>
-            <Link to="/">  
+            <Link to="/" className="nav-link">  
             <FaHome size={25} />
             <span className="nav-text">HOME</span>
             </Link>
           </li>
           <li  className={selected === 'module' ? 'selected' : ''}
             onClick={() => handleItemClick('module')}>
-              <Link to="pythonloops">
+              <Link to="pythonloops" className="nav-link">
                 <GoFileSubmodule size={25} color="black" />
                 <span className="nav-text">MODULES</span>
               </Link>
           </li>
           <li  className={selected === 'instructor' ? 'selected' : ''}
             onClick={() => handleItemClick('instructor')}>
-            <Link to="/">
+            <Link to="/" className="nav-link">
             <FaChalkboardTeacher size={25} />
             <span className="nav-text">INSTRUCTORS</span>
             </Link>

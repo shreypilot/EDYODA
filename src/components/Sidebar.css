@@ -1,11 +1,12 @@
 .container{
   display:flex;
+  height: 100vh;
 }
 
 
 .sidebar {
   width:100px;
-  /* height: 100%; */
+  height: 100%;
   background-color: rgb(3, 24, 31);
   padding: 20px;
   box-sizing: border-box;
@@ -49,4 +50,18 @@ nav li .nav-text {
   width: 80px;
 
 }
+.sidebar .nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #F0F0F0;
+  color: black;
+}
+
+
 

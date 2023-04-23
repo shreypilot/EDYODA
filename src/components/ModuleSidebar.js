@@ -32,7 +32,7 @@ function ModuleSidebar() {
             onMouseEnter={() => handleItemHover('python loops')}
             onMouseLeave={() => handleItemHover('')}
           >
-            <Link to="pythonloops">
+            <Link to="pythonloops" className="nav-link">
             {selected === 'python loops' || hovered === 'python loops' ? (
               <IoIosPlayCircle size={23}  />
             ) : (
@@ -51,7 +51,7 @@ function ModuleSidebar() {
             onMouseEnter={() => handleItemHover('Quiz 1: Data types')}
             onMouseLeave={() => handleItemHover('')}
           >
-          <Link to="quiz">
+          <Link to="quiz" className="nav-link">
 
             {selected === 'Quiz 1: Data types' || hovered === 'Quiz 1: Data types' ? (
               <BsQuestionCircleFill size={23}  />
@@ -72,7 +72,7 @@ function ModuleSidebar() {
             onMouseEnter={() => handleItemHover('Assignment-1 : operators|loops')}
             onMouseLeave={() => handleItemHover('')}
           >
-            <Link to="assignment">
+            <Link to="assignment" className="nav-link">
             {selected === 'Assignment-1 : operators|loops' ||
             hovered === 'Assignment-1 : operators|loops' ? (
               <TbCodeCircle2 size={23} color="black" />
