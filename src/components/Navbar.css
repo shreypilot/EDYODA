@@ -34,9 +34,6 @@
 
 }
 
-
-
-
 .profile {
   display: flex;
   align-items: center;
@@ -57,10 +54,7 @@
   color: white;
   height: 60px;
   padding: 0 60px;
-  box-sizing: border-box;
-  
-  
- 
+  box-sizing: border-box; 
 }
 
 .user-id{
@@ -71,4 +65,27 @@
 .program{
   font-size: medium;
   font-weight: 600;
+}
+.navbar3{
+  display: flex;
+  align-items: center;
+  background-color: rgb(5, 25, 32);
+  color: white;
+  height: 40px;
+  padding: 0 60px;
+  box-sizing: border-box; 
+}
+.dropdown-menu {
+ 
+  display: flex;
+  flex-direction:column;
+}
+
+.columns{
+  display: flex;
+  padding-top: 2px;
+  
+}
+.column{
+  padding: 8px;
 }

@@ -7,7 +7,7 @@ import PythonLoops from "./components/PythonLoops";
 import Quiz from "./components/Quiz";
 import Assignment from "./components/Assignment";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom"; 
-       
+
 const AppLayout = () => {    
   return (
     <>
