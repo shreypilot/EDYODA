@@ -1,0 +1,49 @@
+.python-loops {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.python-loops-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.python-loops-date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.python-loops-date-time {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.python-loops-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.python-loops-column {
+  width: 25%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.python-loops-column-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.python-loops-column-content {
+  font-size: 14px;
+  color: #888;
+}
+
+.python-loops-column.selected {
+  background-color: #eee;
+}

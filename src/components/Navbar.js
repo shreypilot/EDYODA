@@ -2,14 +2,16 @@ import React from 'react';
 import './Navbar.css';
 import {BiUserCircle} from "react-icons/bi"
 import {AiFillCaretDown} from "react-icons/ai"
-
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <>
     <nav className="navbar">
       <div className="logo">
-       EDYODA
+        <Link to="/" className="nav-logo">
+         EDYODA
+       </Link>
       </div>
       <div className="profile">
         <span className="learner">Hi Test Learner!</span>
